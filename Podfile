@@ -12,6 +12,7 @@ target 'ChatWihSockets' do
   pod 'Alamofire', '~> 4.5'
   pod 'NVActivityIndicatorView'
   pod 'GrowingTextView'
+  pod 'SainiUtils'
 
   target 'ChatWihSocketsTests' do
     inherit! :search_paths
