@@ -7,6 +7,11 @@ target 'ChatWihSockets' do
 
   # Pods for ChatWihSockets
   pod 'Socket.IO-Client-Swift', '~> 15.2.0'
+  pod 'IQKeyboardManagerSwift'
+  pod 'Toaster'
+  pod 'Alamofire', '~> 4.5'
+  pod 'NVActivityIndicatorView'
+  pod 'GrowingTextView'
 
   target 'ChatWihSocketsTests' do
     inherit! :search_paths

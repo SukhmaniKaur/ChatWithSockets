@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,10 @@
 		FA3F50F62521C17100E86335 /* ChatWihSocketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50F52521C17100E86335 /* ChatWihSocketsTests.swift */; };
 		FA3F51012521C17200E86335 /* ChatWihSocketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F51002521C17200E86335 /* ChatWihSocketsUITests.swift */; };
 		FA3F51102521C18A00E86335 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F510F2521C18A00E86335 /* SocketIOManager.swift */; };
+		FA3F51152521C56F00E86335 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F51142521C56F00E86335 /* ChatModel.swift */; };
+		FA3F511A2521C61300E86335 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F51182521C61300E86335 /* ChatCell.swift */; };
+		FA3F511B2521C61300E86335 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3F51192521C61300E86335 /* ChatCell.xib */; };
+		FA3F511D2521C6DE00E86335 /* ChatBoxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F511C2521C6DE00E86335 /* ChatBoxVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		FA3F51002521C17200E86335 /* ChatWihSocketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWihSocketsUITests.swift; sourceTree = "<group>"; };
 		FA3F51022521C17200E86335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3F510F2521C18A00E86335 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		FA3F51142521C56F00E86335 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		FA3F51182521C61300E86335 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		FA3F51192521C61300E86335 /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		FA3F511C2521C6DE00E86335 /* ChatBoxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBoxVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +121,6 @@
 				A94752D9692B4608CFACECEE /* Pods-ChatWihSocketsTests.debug.xcconfig */,
 				48D62B481C87778108EFF11A /* Pods-ChatWihSocketsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,6 +149,10 @@
 		FA3F50DD2521C16F00E86335 /* ChatWihSockets */ = {
 			isa = PBXGroup;
 			children = (
+				FA3F51162521C60000E86335 /* Xib's */,
+				FA3F51132521C55900E86335 /* ViewModel */,
+				FA3F51122521C55000E86335 /* View */,
+				FA3F51112521C53A00E86335 /* Model */,
 				FA3F510E2521C18A00E86335 /* SocketChat */,
 				FA3F50DE2521C16F00E86335 /* AppDelegate.swift */,
 				FA3F50E02521C16F00E86335 /* SceneDelegate.swift */,
@@ -179,6 +190,47 @@
 			);
 			name = SocketChat;
 			path = "../../../AppKnit/wellnessapp-ios/WellnessApp/SocketChat";
+			sourceTree = "<group>";
+		};
+		FA3F51112521C53A00E86335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F51142521C56F00E86335 /* ChatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA3F51122521C55000E86335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F511C2521C6DE00E86335 /* ChatBoxVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA3F51132521C55900E86335 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA3F51162521C60000E86335 /* Xib's */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F51172521C61300E86335 /* ChatBox */,
+			);
+			path = "Xib's";
+			sourceTree = "<group>";
+		};
+		FA3F51172521C61300E86335 /* ChatBox */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F51182521C61300E86335 /* ChatCell.swift */,
+				FA3F51192521C61300E86335 /* ChatCell.xib */,
+			);
+			name = ChatBox;
+			path = "../../../../AppKnit/wellnessapp-ios/WellnessApp/Xib's/ChatBox";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3F50EB2521C17100E86335 /* LaunchScreen.storyboard in Resources */,
+				FA3F511B2521C61300E86335 /* ChatCell.xib in Resources */,
 				FA3F50E82521C17100E86335 /* Assets.xcassets in Resources */,
 				FA3F50E62521C16F00E86335 /* Main.storyboard in Resources */,
 			);
@@ -420,10 +473,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3F51152521C56F00E86335 /* ChatModel.swift in Sources */,
+				FA3F511D2521C6DE00E86335 /* ChatBoxVC.swift in Sources */,
 				FA3F51102521C18A00E86335 /* SocketIOManager.swift in Sources */,
 				FA3F50E32521C16F00E86335 /* ViewController.swift in Sources */,
 				FA3F50DF2521C16F00E86335 /* AppDelegate.swift in Sources */,
 				FA3F50E12521C16F00E86335 /* SceneDelegate.swift in Sources */,
+				FA3F511A2521C61300E86335 /* ChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

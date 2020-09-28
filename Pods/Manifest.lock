@@ -1,20 +1,42 @@
 PODS:
+  - Alamofire (4.9.1)
+  - GrowingTextView (0.7.2)
+  - IQKeyboardManagerSwift (6.5.6)
+  - NVActivityIndicatorView (5.0.1):
+    - NVActivityIndicatorView/Base (= 5.0.1)
+  - NVActivityIndicatorView/Base (5.0.1)
   - Socket.IO-Client-Swift (15.2.0):
     - Starscream (~> 3.1)
   - Starscream (3.1.1)
+  - Toaster (2.2.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - GrowingTextView
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
   - Socket.IO-Client-Swift (~> 15.2.0)
+  - Toaster
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - GrowingTextView
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
     - Socket.IO-Client-Swift
     - Starscream
+    - Toaster
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  GrowingTextView: 876bf42005b5e4a4fd740597db12caaf41f0fe6c
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  NVActivityIndicatorView: 738e843cb8924e9e4fc3e559d0728031624bf860
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  Toaster: c1a81b376edcc2470157b4d1ee1e9341d3b96455
 
-PODFILE CHECKSUM: 27e3a02a5841ef6e8182c67f7656044b81b6a535
+PODFILE CHECKSUM: 45fc3c498f0f3145de9e149a7c8f6e7442c5912e
 
 COCOAPODS: 1.8.4
