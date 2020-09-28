@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3F50DF2521C16F00E86335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50DE2521C16F00E86335 /* AppDelegate.swift */; };
+		FA3F50E12521C16F00E86335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50E02521C16F00E86335 /* SceneDelegate.swift */; };
+		FA3F50E32521C16F00E86335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50E22521C16F00E86335 /* ViewController.swift */; };
+		FA3F50E62521C16F00E86335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3F50E42521C16F00E86335 /* Main.storyboard */; };
+		FA3F50E82521C17100E86335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3F50E72521C17100E86335 /* Assets.xcassets */; };
+		FA3F50EB2521C17100E86335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3F50E92521C17100E86335 /* LaunchScreen.storyboard */; };
+		FA3F50F62521C17100E86335 /* ChatWihSocketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50F52521C17100E86335 /* ChatWihSocketsTests.swift */; };
+		FA3F51012521C17200E86335 /* ChatWihSocketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F51002521C17200E86335 /* ChatWihSocketsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA3F50F22521C17100E86335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3F50D32521C16F00E86335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3F50DA2521C16F00E86335;
+			remoteInfo = ChatWihSockets;
+		};
+		FA3F50FD2521C17100E86335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3F50D32521C16F00E86335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3F50DA2521C16F00E86335;
+			remoteInfo = ChatWihSockets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA3F50DB2521C16F00E86335 /* ChatWihSockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatWihSockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3F50DE2521C16F00E86335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA3F50E02521C16F00E86335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA3F50E22521C16F00E86335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA3F50E52521C16F00E86335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3F50E72521C17100E86335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3F50EA2521C17100E86335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA3F50EC2521C17100E86335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3F50F12521C17100E86335 /* ChatWihSocketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatWihSocketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3F50F52521C17100E86335 /* ChatWihSocketsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWihSocketsTests.swift; sourceTree = "<group>"; };
+		FA3F50F72521C17100E86335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3F50FC2521C17100E86335 /* ChatWihSocketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatWihSocketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3F51002521C17200E86335 /* ChatWihSocketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWihSocketsUITests.swift; sourceTree = "<group>"; };
+		FA3F51022521C17200E86335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3F50D82521C16F00E86335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3F50EE2521C17100E86335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3F50F92521C17100E86335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3F50D22521C16F00E86335 = {
+			isa = PBXGroup;
+			children = (
+				FA3F50DD2521C16F00E86335 /* ChatWihSockets */,
+				FA3F50F42521C17100E86335 /* ChatWihSocketsTests */,
+				FA3F50FF2521C17100E86335 /* ChatWihSocketsUITests */,
+				FA3F50DC2521C16F00E86335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3F50DC2521C16F00E86335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F50DB2521C16F00E86335 /* ChatWihSockets.app */,
+				FA3F50F12521C17100E86335 /* ChatWihSocketsTests.xctest */,
+				FA3F50FC2521C17100E86335 /* ChatWihSocketsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3F50DD2521C16F00E86335 /* ChatWihSockets */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F50DE2521C16F00E86335 /* AppDelegate.swift */,
+				FA3F50E02521C16F00E86335 /* SceneDelegate.swift */,
+				FA3F50E22521C16F00E86335 /* ViewController.swift */,
+				FA3F50E42521C16F00E86335 /* Main.storyboard */,
+				FA3F50E72521C17100E86335 /* Assets.xcassets */,
+				FA3F50E92521C17100E86335 /* LaunchScreen.storyboard */,
+				FA3F50EC2521C17100E86335 /* Info.plist */,
+			);
+			path = ChatWihSockets;
+			sourceTree = "<group>";
+		};
+		FA3F50F42521C17100E86335 /* ChatWihSocketsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F50F52521C17100E86335 /* ChatWihSocketsTests.swift */,
+				FA3F50F72521C17100E86335 /* Info.plist */,
+			);
+			path = ChatWihSocketsTests;
+			sourceTree = "<group>";
+		};
+		FA3F50FF2521C17100E86335 /* ChatWihSocketsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F51002521C17200E86335 /* ChatWihSocketsUITests.swift */,
+				FA3F51022521C17200E86335 /* Info.plist */,
+			);
+			path = ChatWihSocketsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3F50DA2521C16F00E86335 /* ChatWihSockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3F51052521C17200E86335 /* Build configuration list for PBXNativeTarget "ChatWihSockets" */;
+			buildPhases = (
+				FA3F50D72521C16F00E86335 /* Sources */,
+				FA3F50D82521C16F00E86335 /* Frameworks */,
+				FA3F50D92521C16F00E86335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatWihSockets;
+			productName = ChatWihSockets;
+			productReference = FA3F50DB2521C16F00E86335 /* ChatWihSockets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA3F50F02521C17100E86335 /* ChatWihSocketsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3F51082521C17200E86335 /* Build configuration list for PBXNativeTarget "ChatWihSocketsTests" */;
+			buildPhases = (
+				FA3F50ED2521C17100E86335 /* Sources */,
+				FA3F50EE2521C17100E86335 /* Frameworks */,
+				FA3F50EF2521C17100E86335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3F50F32521C17100E86335 /* PBXTargetDependency */,
+			);
+			name = ChatWihSocketsTests;
+			productName = ChatWihSocketsTests;
+			productReference = FA3F50F12521C17100E86335 /* ChatWihSocketsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA3F50FB2521C17100E86335 /* ChatWihSocketsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3F510B2521C17200E86335 /* Build configuration list for PBXNativeTarget "ChatWihSocketsUITests" */;
+			buildPhases = (
+				FA3F50F82521C17100E86335 /* Sources */,
+				FA3F50F92521C17100E86335 /* Frameworks */,
+				FA3F50FA2521C17100E86335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3F50FE2521C17100E86335 /* PBXTargetDependency */,
+			);
+			name = ChatWihSocketsUITests;
+			productName = ChatWihSocketsUITests;
+			productReference = FA3F50FC2521C17100E86335 /* ChatWihSocketsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3F50D32521C16F00E86335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SukhmaniKaur;
+				TargetAttributes = {
+					FA3F50DA2521C16F00E86335 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FA3F50F02521C17100E86335 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FA3F50DA2521C16F00E86335;
+					};
+					FA3F50FB2521C17100E86335 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FA3F50DA2521C16F00E86335;
+					};
+				};
+			};
+			buildConfigurationList = FA3F50D62521C16F00E86335 /* Build configuration list for PBXProject "ChatWihSockets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3F50D22521C16F00E86335;
+			productRefGroup = FA3F50DC2521C16F00E86335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3F50DA2521C16F00E86335 /* ChatWihSockets */,
+				FA3F50F02521C17100E86335 /* ChatWihSocketsTests */,
+				FA3F50FB2521C17100E86335 /* ChatWihSocketsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3F50D92521C16F00E86335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3F50EB2521C17100E86335 /* LaunchScreen.storyboard in Resources */,
+				FA3F50E82521C17100E86335 /* Assets.xcassets in Resources */,
+				FA3F50E62521C16F00E86335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3F50EF2521C17100E86335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3F50FA2521C17100E86335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3F50D72521C16F00E86335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3F50E32521C16F00E86335 /* ViewController.swift in Sources */,
+				FA3F50DF2521C16F00E86335 /* AppDelegate.swift in Sources */,
+				FA3F50E12521C16F00E86335 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3F50ED2521C17100E86335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3F50F62521C17100E86335 /* ChatWihSocketsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3F50F82521C17100E86335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3F51012521C17200E86335 /* ChatWihSocketsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA3F50F32521C17100E86335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3F50DA2521C16F00E86335 /* ChatWihSockets */;
+			targetProxy = FA3F50F22521C17100E86335 /* PBXContainerItemProxy */;
+		};
+		FA3F50FE2521C17100E86335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3F50DA2521C16F00E86335 /* ChatWihSockets */;
+			targetProxy = FA3F50FD2521C17100E86335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA3F50E42521C16F00E86335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3F50E52521C16F00E86335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3F50E92521C17100E86335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3F50EA2521C17100E86335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3F51032521C17200E86335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA3F51042521C17200E86335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3F51062521C17200E86335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
+				INFOPLIST_FILE = ChatWihSockets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ChatWihSockets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA3F51072521C17200E86335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
+				INFOPLIST_FILE = ChatWihSockets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ChatWihSockets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA3F51092521C17200E86335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
+				INFOPLIST_FILE = ChatWihSocketsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ChatWihSocketsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatWihSockets.app/ChatWihSockets";
+			};
+			name = Debug;
+		};
+		FA3F510A2521C17200E86335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
+				INFOPLIST_FILE = ChatWihSocketsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ChatWihSocketsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatWihSockets.app/ChatWihSockets";
+			};
+			name = Release;
+		};
+		FA3F510C2521C17200E86335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
+				INFOPLIST_FILE = ChatWihSocketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ChatWihSocketsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatWihSockets;
+			};
+			name = Debug;
+		};
+		FA3F510D2521C17200E86335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
+				INFOPLIST_FILE = ChatWihSocketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ChatWihSocketsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatWihSockets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3F50D62521C16F00E86335 /* Build configuration list for PBXProject "ChatWihSockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3F51032521C17200E86335 /* Debug */,
+				FA3F51042521C17200E86335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3F51052521C17200E86335 /* Build configuration list for PBXNativeTarget "ChatWihSockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3F51062521C17200E86335 /* Debug */,
+				FA3F51072521C17200E86335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3F51082521C17200E86335 /* Build configuration list for PBXNativeTarget "ChatWihSocketsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3F51092521C17200E86335 /* Debug */,
+				FA3F510A2521C17200E86335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3F510B2521C17200E86335 /* Build configuration list for PBXNativeTarget "ChatWihSocketsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3F510C2521C17200E86335 /* Debug */,
+				FA3F510D2521C17200E86335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3F50D32521C16F00E86335 /* Project object */;
+}
