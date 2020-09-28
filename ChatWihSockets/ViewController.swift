@@ -15,6 +15,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func startChattingBtnIsPressed(_ sender: UIButton) {
+        SocketIOManager.sharedInstance.establishConnection()
+        let STORYBOARD = UIStoryboard(name: "Main", bundle: nil)
+        let vc = STORYBOARD.instantiateViewController(withIdentifier: "ChatBoxVC") as! ChatBoxVC
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 
