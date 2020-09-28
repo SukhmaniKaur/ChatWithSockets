@@ -39,23 +39,15 @@ class ChatBoxVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         refreshControl.addTarget(self, action: #selector(refreshData(_:)), for: .valueChanged)
         refreshControl.tintColor = UIColor(red:16/255, green:27/255, blue:57/255, alpha:1.0)
         refreshControl.attributedTitle = NSAttributedString(string: "loading...")
-        latestMessages()
+//        latestMessages()
         tableView.register(UINib(nibName: "ChatCell", bundle: nil), forCellReuseIdentifier: "ChatCell")
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = UITableView.automaticDimension
         customization()
         
-
+//        SocketIOManager.sharedInstance.establishConnection()
        
         // Do any additional setup after loading the view.
-    }
-    
-    //MARK: - viewWillAppear
-    override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
-        
-        let tabBar : CustomTabBarController = self.tabBarController as! CustomTabBarController
-        tabBar.setTabBarHidden(tabBarHidden: true)
     }
     
     //MARK: - viewWillDisappear
@@ -67,7 +59,7 @@ class ChatBoxVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     //get previous messages
     @objc private func refreshData(_ sender: Any){
             page = page + 1
-            previousMessages(page: page)
+//            previousMessages(page: page)
     }
     
     //MARK: - viewDidAppear
@@ -179,7 +171,7 @@ class ChatBoxVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
             })
         }
     }
-    
+
     private func previousMessages(page:Int){
         let params: [String: Any] = ["page": page]
         GCD.USER.ChatMessageList.async {
@@ -195,7 +187,7 @@ class ChatBoxVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
                             self.chatMessages = self.previousMessageArr + self.chatMessages
                             DispatchQueue.main.async {
                                 self.tableView.reloadData()
-                                
+
                             }
                         default:
                             print("Error")
@@ -208,19 +200,6 @@ class ChatBoxVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
             })
         }
     }
-    
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 

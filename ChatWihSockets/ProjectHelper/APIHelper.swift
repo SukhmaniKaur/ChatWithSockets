@@ -12,7 +12,7 @@ import UIKit
 struct API {
     
     //Development
-    static let BASE_URL = "http://ec2-18-218-192-105.us-east-2.compute.amazonaws.com/development/api/"
+    static let BASE_URL = "http://94b0b3ca275e.ngrok.io/"
     
     //local
     //static let BASE_URL =  "http://192.168.1.27:3000/api/"
