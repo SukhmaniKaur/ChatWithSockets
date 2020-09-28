@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13B40A26005D255D61B656C8 /* Pods_ChatWihSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4CF631DBA3D780851C72F08 /* Pods_ChatWihSockets.framework */; };
+		1D00F450F756C0493746DA9E /* Pods_ChatWihSockets_ChatWihSocketsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150592F2E0A82E91639E3C64 /* Pods_ChatWihSockets_ChatWihSocketsUITests.framework */; };
+		C13239D5AFCDF3485220D329 /* Pods_ChatWihSocketsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE58D6610D1B09F65B297D7 /* Pods_ChatWihSocketsTests.framework */; };
 		FA3F50DF2521C16F00E86335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50DE2521C16F00E86335 /* AppDelegate.swift */; };
 		FA3F50E12521C16F00E86335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50E02521C16F00E86335 /* SceneDelegate.swift */; };
 		FA3F50E32521C16F00E86335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50E22521C16F00E86335 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		FA3F50EB2521C17100E86335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3F50E92521C17100E86335 /* LaunchScreen.storyboard */; };
 		FA3F50F62521C17100E86335 /* ChatWihSocketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50F52521C17100E86335 /* ChatWihSocketsTests.swift */; };
 		FA3F51012521C17200E86335 /* ChatWihSocketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F51002521C17200E86335 /* ChatWihSocketsUITests.swift */; };
+		FA3F51102521C18A00E86335 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F510F2521C18A00E86335 /* SocketIOManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E1684230D5808611A68055 /* Pods-ChatWihSockets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWihSockets.release.xcconfig"; path = "Target Support Files/Pods-ChatWihSockets/Pods-ChatWihSockets.release.xcconfig"; sourceTree = "<group>"; };
+		150592F2E0A82E91639E3C64 /* Pods_ChatWihSockets_ChatWihSocketsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatWihSockets_ChatWihSocketsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		256DBA8BEDE6119E53CB575D /* Pods-ChatWihSockets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWihSockets.debug.xcconfig"; path = "Target Support Files/Pods-ChatWihSockets/Pods-ChatWihSockets.debug.xcconfig"; sourceTree = "<group>"; };
+		48D62B481C87778108EFF11A /* Pods-ChatWihSocketsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWihSocketsTests.release.xcconfig"; path = "Target Support Files/Pods-ChatWihSocketsTests/Pods-ChatWihSocketsTests.release.xcconfig"; sourceTree = "<group>"; };
+		97EA67E6ABA2840FB879E36A /* Pods-ChatWihSockets-ChatWihSocketsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWihSockets-ChatWihSocketsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChatWihSockets-ChatWihSocketsUITests/Pods-ChatWihSockets-ChatWihSocketsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A94752D9692B4608CFACECEE /* Pods-ChatWihSocketsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWihSocketsTests.debug.xcconfig"; path = "Target Support Files/Pods-ChatWihSocketsTests/Pods-ChatWihSocketsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEE58D6610D1B09F65B297D7 /* Pods_ChatWihSocketsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatWihSocketsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CF631DBA3D780851C72F08 /* Pods_ChatWihSockets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatWihSockets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7350BB4ADA6B2E5BD2D5A90 /* Pods-ChatWihSockets-ChatWihSocketsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWihSockets-ChatWihSocketsUITests.release.xcconfig"; path = "Target Support Files/Pods-ChatWihSockets-ChatWihSocketsUITests/Pods-ChatWihSockets-ChatWihSocketsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FA3F50DB2521C16F00E86335 /* ChatWihSockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatWihSockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3F50DE2521C16F00E86335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA3F50E02521C16F00E86335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		FA3F50FC2521C17100E86335 /* ChatWihSocketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatWihSocketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3F51002521C17200E86335 /* ChatWihSocketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWihSocketsUITests.swift; sourceTree = "<group>"; };
 		FA3F51022521C17200E86335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3F510F2521C18A00E86335 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B40A26005D255D61B656C8 /* Pods_ChatWihSockets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13239D5AFCDF3485220D329 /* Pods_ChatWihSocketsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D00F450F756C0493746DA9E /* Pods_ChatWihSockets_ChatWihSocketsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BB20DE2B01752311CEB0C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4CF631DBA3D780851C72F08 /* Pods_ChatWihSockets.framework */,
+				150592F2E0A82E91639E3C64 /* Pods_ChatWihSockets_ChatWihSocketsUITests.framework */,
+				DEE58D6610D1B09F65B297D7 /* Pods_ChatWihSocketsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BB25A3AFE99F667AA18CFAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				256DBA8BEDE6119E53CB575D /* Pods-ChatWihSockets.debug.xcconfig */,
+				02E1684230D5808611A68055 /* Pods-ChatWihSockets.release.xcconfig */,
+				97EA67E6ABA2840FB879E36A /* Pods-ChatWihSockets-ChatWihSocketsUITests.debug.xcconfig */,
+				F7350BB4ADA6B2E5BD2D5A90 /* Pods-ChatWihSockets-ChatWihSocketsUITests.release.xcconfig */,
+				A94752D9692B4608CFACECEE /* Pods-ChatWihSocketsTests.debug.xcconfig */,
+				48D62B481C87778108EFF11A /* Pods-ChatWihSocketsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA3F50D22521C16F00E86335 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				FA3F50F42521C17100E86335 /* ChatWihSocketsTests */,
 				FA3F50FF2521C17100E86335 /* ChatWihSocketsUITests */,
 				FA3F50DC2521C16F00E86335 /* Products */,
+				8BB25A3AFE99F667AA18CFAC /* Pods */,
+				3BB20DE2B01752311CEB0C0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +142,7 @@
 		FA3F50DD2521C16F00E86335 /* ChatWihSockets */ = {
 			isa = PBXGroup;
 			children = (
+				FA3F510E2521C18A00E86335 /* SocketChat */,
 				FA3F50DE2521C16F00E86335 /* AppDelegate.swift */,
 				FA3F50E02521C16F00E86335 /* SceneDelegate.swift */,
 				FA3F50E22521C16F00E86335 /* ViewController.swift */,
@@ -128,6 +172,15 @@
 			path = ChatWihSocketsUITests;
 			sourceTree = "<group>";
 		};
+		FA3F510E2521C18A00E86335 /* SocketChat */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F510F2521C18A00E86335 /* SocketIOManager.swift */,
+			);
+			name = SocketChat;
+			path = "../../../AppKnit/wellnessapp-ios/WellnessApp/SocketChat";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA3F51052521C17200E86335 /* Build configuration list for PBXNativeTarget "ChatWihSockets" */;
 			buildPhases = (
+				209C9FE94C89D438F61DD9EF /* [CP] Check Pods Manifest.lock */,
 				FA3F50D72521C16F00E86335 /* Sources */,
 				FA3F50D82521C16F00E86335 /* Frameworks */,
 				FA3F50D92521C16F00E86335 /* Resources */,
+				B749F0E041FE5C250E47E79F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA3F51082521C17200E86335 /* Build configuration list for PBXNativeTarget "ChatWihSocketsTests" */;
 			buildPhases = (
+				50DFBD13FA1EC943E50C08F9 /* [CP] Check Pods Manifest.lock */,
 				FA3F50ED2521C17100E86335 /* Sources */,
 				FA3F50EE2521C17100E86335 /* Frameworks */,
 				FA3F50EF2521C17100E86335 /* Resources */,
@@ -170,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA3F510B2521C17200E86335 /* Build configuration list for PBXNativeTarget "ChatWihSocketsUITests" */;
 			buildPhases = (
+				B2BC24597772D6A47D333291 /* [CP] Check Pods Manifest.lock */,
 				FA3F50F82521C17100E86335 /* Sources */,
 				FA3F50F92521C17100E86335 /* Frameworks */,
 				FA3F50FA2521C17100E86335 /* Resources */,
+				ECF9135B28F90CB6B2CE1605 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,11 +312,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		209C9FE94C89D438F61DD9EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatWihSockets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50DFBD13FA1EC943E50C08F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatWihSocketsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2BC24597772D6A47D333291 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatWihSockets-ChatWihSocketsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B749F0E041FE5C250E47E79F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatWihSockets/Pods-ChatWihSockets-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatWihSockets/Pods-ChatWihSockets-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatWihSockets/Pods-ChatWihSockets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF9135B28F90CB6B2CE1605 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatWihSockets-ChatWihSocketsUITests/Pods-ChatWihSockets-ChatWihSocketsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatWihSockets-ChatWihSocketsUITests/Pods-ChatWihSockets-ChatWihSocketsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatWihSockets-ChatWihSocketsUITests/Pods-ChatWihSockets-ChatWihSocketsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA3F50D72521C16F00E86335 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3F51102521C18A00E86335 /* SocketIOManager.swift in Sources */,
 				FA3F50E32521C16F00E86335 /* ViewController.swift in Sources */,
 				FA3F50DF2521C16F00E86335 /* AppDelegate.swift in Sources */,
 				FA3F50E12521C16F00E86335 /* SceneDelegate.swift in Sources */,
@@ -432,6 +594,7 @@
 		};
 		FA3F51062521C17200E86335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256DBA8BEDE6119E53CB575D /* Pods-ChatWihSockets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +613,7 @@
 		};
 		FA3F51072521C17200E86335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E1684230D5808611A68055 /* Pods-ChatWihSockets.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +632,7 @@
 		};
 		FA3F51092521C17200E86335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94752D9692B4608CFACECEE /* Pods-ChatWihSocketsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +655,7 @@
 		};
 		FA3F510A2521C17200E86335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D62B481C87778108EFF11A /* Pods-ChatWihSocketsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +678,7 @@
 		};
 		FA3F510C2521C17200E86335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97EA67E6ABA2840FB879E36A /* Pods-ChatWihSockets-ChatWihSocketsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +699,7 @@
 		};
 		FA3F510D2521C17200E86335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7350BB4ADA6B2E5BD2D5A90 /* Pods-ChatWihSockets-ChatWihSocketsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
