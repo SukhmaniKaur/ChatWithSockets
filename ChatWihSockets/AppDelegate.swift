@@ -42,9 +42,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
-        if AppModel.shared.token != ""{
         SocketIOManager.sharedInstance.establishConnection()
-        }
+        
     }
     
     func sharedDelegate() -> AppDelegate

@@ -27,7 +27,7 @@ class SocketIOManager: NSObject {
        
         let userId = AppModel.shared.token
         self.manager.config = SocketIOClientConfiguration(
-            arrayLiteral: .connectParams(["access_token": userId]),
+            arrayLiteral: .connectParams(["access_token": userId]),.extraHeaders(["Authorization" : userId]),
             .secure(true)
         )
         

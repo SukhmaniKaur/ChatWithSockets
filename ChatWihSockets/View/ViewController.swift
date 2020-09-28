@@ -17,10 +17,12 @@ class ViewController: UIViewController {
 
     @IBAction func startChattingBtnIsPressed(_ sender: UIButton) {
         SocketIOManager.sharedInstance.establishConnection()
-        let STORYBOARD = UIStoryboard(name: "Main", bundle: nil)
-        let vc = STORYBOARD.instantiateViewController(withIdentifier: "ChatBoxVC") as! ChatBoxVC
-        self.navigationController?.pushViewController(vc, animated: true)
+        
     }
     
+    @IBAction func disconnect(_ sender: Any) {
+        SocketIOManager.sharedInstance.closeConnection()
+
+    }
 }
 

@@ -19,9 +19,6 @@
 		FA3F50F62521C17100E86335 /* ChatWihSocketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F50F52521C17100E86335 /* ChatWihSocketsTests.swift */; };
 		FA3F51012521C17200E86335 /* ChatWihSocketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F51002521C17200E86335 /* ChatWihSocketsUITests.swift */; };
 		FA3F51152521C56F00E86335 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F51142521C56F00E86335 /* ChatModel.swift */; };
-		FA3F511A2521C61300E86335 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F51182521C61300E86335 /* ChatCell.swift */; };
-		FA3F511B2521C61300E86335 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3F51192521C61300E86335 /* ChatCell.xib */; };
-		FA3F511D2521C6DE00E86335 /* ChatBoxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F511C2521C6DE00E86335 /* ChatBoxVC.swift */; };
 		FA3F51272521DBAD00E86335 /* Instagram_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F511F2521DBAD00E86335 /* Instagram_API.swift */; };
 		FA3F51282521DBAD00E86335 /* SainiDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F51202521DBAD00E86335 /* SainiDatePicker.swift */; };
 		FA3F51292521DBAD00E86335 /* API_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F51212521DBAD00E86335 /* API_Manager.swift */; };
@@ -75,9 +72,6 @@
 		FA3F51002521C17200E86335 /* ChatWihSocketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWihSocketsUITests.swift; sourceTree = "<group>"; };
 		FA3F51022521C17200E86335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3F51142521C56F00E86335 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
-		FA3F51182521C61300E86335 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
-		FA3F51192521C61300E86335 /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
-		FA3F511C2521C6DE00E86335 /* ChatBoxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBoxVC.swift; sourceTree = "<group>"; };
 		FA3F511F2521DBAD00E86335 /* Instagram_API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram_API.swift; sourceTree = "<group>"; };
 		FA3F51202521DBAD00E86335 /* SainiDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SainiDatePicker.swift; sourceTree = "<group>"; };
 		FA3F51212521DBAD00E86335 /* API_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_Manager.swift; sourceTree = "<group>"; };
@@ -166,8 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				FA3F511E2521DBAD00E86335 /* ProjectHelper */,
-				FA3F51162521C60000E86335 /* Xib's */,
-				FA3F51132521C55900E86335 /* ViewModel */,
 				FA3F51122521C55000E86335 /* View */,
 				FA3F51112521C53A00E86335 /* Model */,
 				FA3F510E2521C18A00E86335 /* SocketChat */,
@@ -219,35 +211,9 @@
 		FA3F51122521C55000E86335 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FA3F511C2521C6DE00E86335 /* ChatBoxVC.swift */,
 				FA3F50E22521C16F00E86335 /* ViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		FA3F51132521C55900E86335 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		FA3F51162521C60000E86335 /* Xib's */ = {
-			isa = PBXGroup;
-			children = (
-				FA3F51172521C61300E86335 /* ChatBox */,
-			);
-			path = "Xib's";
-			sourceTree = "<group>";
-		};
-		FA3F51172521C61300E86335 /* ChatBox */ = {
-			isa = PBXGroup;
-			children = (
-				FA3F51182521C61300E86335 /* ChatCell.swift */,
-				FA3F51192521C61300E86335 /* ChatCell.xib */,
-			);
-			name = ChatBox;
-			path = "../../../../AppKnit/wellnessapp-ios/WellnessApp/Xib's/ChatBox";
 			sourceTree = "<group>";
 		};
 		FA3F511E2521DBAD00E86335 /* ProjectHelper */ = {
@@ -375,7 +341,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3F50EB2521C17100E86335 /* LaunchScreen.storyboard in Resources */,
-				FA3F511B2521C61300E86335 /* ChatCell.xib in Resources */,
 				FA3F50E82521C17100E86335 /* Assets.xcassets in Resources */,
 				FA3F50E62521C16F00E86335 /* Main.storyboard in Resources */,
 			);
@@ -508,7 +473,6 @@
 				FA3F512D2521DBAD00E86335 /* Utility.swift in Sources */,
 				FA3F51322521EB7000E86335 /* SocketIOManager.swift in Sources */,
 				FA3F51152521C56F00E86335 /* ChatModel.swift in Sources */,
-				FA3F511D2521C6DE00E86335 /* ChatBoxVC.swift in Sources */,
 				FA3F51302521DDBE00E86335 /* APIHelper.swift in Sources */,
 				FA3F512A2521DBAD00E86335 /* AppModel.swift in Sources */,
 				FA3F51292521DBAD00E86335 /* API_Manager.swift in Sources */,
@@ -519,7 +483,6 @@
 				FA3F51282521DBAD00E86335 /* SainiDatePicker.swift in Sources */,
 				FA3F51272521DBAD00E86335 /* Instagram_API.swift in Sources */,
 				FA3F50E12521C16F00E86335 /* SceneDelegate.swift in Sources */,
-				FA3F511A2521C61300E86335 /* ChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
