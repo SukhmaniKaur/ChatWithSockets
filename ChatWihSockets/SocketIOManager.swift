@@ -14,7 +14,7 @@ class SocketIOManager: NSObject {
     var socket: SocketIOClient!
     
     // defaultNamespaceSocket and swiftSocket both share a single connection to the server
-    let manager = SocketManager(socketURL: URL(string: "http://94b0b3ca275e.ngrok.io/")!, config: [.log(true), .compress])
+    let manager = SocketManager(socketURL: URL(string: "http://6c90fe4479e7.ngrok.io/")!, config: [.log(true), .compress])
     
     override init() {
         super.init()
@@ -27,9 +27,10 @@ class SocketIOManager: NSObject {
        
         let userId = AppModel.shared.token
         self.manager.config = SocketIOClientConfiguration(
-            arrayLiteral: .connectParams(["access_token": userId]),.extraHeaders(["Authorization" : userId]),
-            .secure(true)
+            arrayLiteral:.connectParams(["access_token": userId]),.extraHeaders(["Authorization" : userId]),
+            .secure(true),.forceWebsockets(true)
         )
+      
         
         //To connect socket
         socket.on(clientEvent: .connect) { (data, ack) in
